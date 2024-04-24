@@ -24,6 +24,9 @@ Step 3: start mongo-express
     docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --net mongo-network --name mongo-express -e ME_CONFIG_MONGODB_SERVER=mongodb mongo-express   
 
 _NOTE: creating docker-network in optional. You can start both containers in a default network. In this case, just emit `--net` flag in `docker run` command_
+![image](https://github.com/ProtegeDpain/myCloudRepo/assets/102036335/585234cc-ad17-49fa-990a-79b55562c770)
+![image](https://github.com/ProtegeDpain/myCloudRepo/assets/102036335/a2febaf0-578d-4414-bb96-6e1060f47b4c)
+
 
 Step 4: open mongo-express from browser
 
